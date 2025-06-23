@@ -1,0 +1,52 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000002001",
+    "name": {
+      "first": "Bruna",
+      "last": "Alves"
+    },
+    "region": "Brazil",
+    "department": "Marketing",
+    "phoneNumberSuffix": "0191"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000002002",
+    "name": {
+      "first": "Eduarda",
+      "last": "Dias"
+    },
+    "region": "Brazil",
+    "department": "IT",
+    "phoneNumberSuffix": "0170"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000002003",
+    "name": {
+      "first": "Francis",
+      "last": "Ribeiro"
+    },
+    "region": "Brazil",
+    "department": "Sales",
+    "phoneNumberSuffix": "0191"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000002004",
+    "name": {
+      "first": "Elza",
+      "last": "Pereira"
+    },
+    "region": "Brazil",
+    "department": "Sales",
+    "phoneNumberSuffix": "0156"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000002005",
+    "name": {
+      "first": "Antonio",
+      "last": "Teixeira"
+    },
+    "region": "Brazil",
+    "department": "IT",
+    "phoneNumberSuffix": "0110"
+  }
+]

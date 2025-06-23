@@ -1,0 +1,200 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000004001",
+    "name": "Raiot Jacket",
+    "category": "gear",
+    "subCategory": "gear-paddle",
+    "detailCategory": "gear-paddle-safety-gear",
+    "description": "Raiot vest lifejacket. Suitable for professional users and crews. Equipped with safety harness certified according to ISO 12401. Device certified according to SOLAS M.E.D.",
+    "slug": "raiot-jacket",
+    "sKU": "70304",
+    "price": 42.00,
+    "quantity": 909,
+    "colors": [
+      "blaze-orange",
+      "crimson"
+    ],
+    "sizes": [
+      {
+        "key": "s",
+        "description": "Small",
+        "order": 0
+      },
+      {
+        "key": "m",
+        "description": "Medium",
+        "order": 1
+      },
+      {
+        "key": "l",
+        "description": "Large",
+        "order": 2
+      },
+      {
+        "key": "xl",
+        "description": "Extra Large",
+        "order": 3
+      }
+    ],
+    "metadata": {
+      "link": "https://www.adventure-works.com/raiot-jacket/68719519577.p"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000004002",
+    "name": "Potana bike",
+    "category": "gear",
+    "subCategory": "gear-cycle",
+    "detailCategory": "gear-cycle-kids-bikes",
+    "description": "This bike is perfect for riding to the park or riding on the sidewalk around the neighborhood. Front caliper brake and rear coaster brake offer double safety.",
+    "slug": "potana-bike",
+    "sKU": "67302",
+    "price": 152.00,
+    "quantity": 215,
+    "colors": [
+      "crimson"
+    ],
+    "tags": [
+      {
+        "key": "frame-material",
+        "value": "metal",
+        "description": "Metal"
+      }
+    ],
+    "metadata": {
+      "link": "https://www.adventure-works.com/potana-bike/68719522273.p"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000004003",
+    "name": "Lampinjas Men's Shirt",
+    "category": "apparel",
+    "subCategory": "apparel-men",
+    "detailCategory": "apparel-men-shirts",
+    "description": "This plain long sleeve shirt made up of cotton - poly material for superior softness and durability so you can expect it to last long. It is the most modern fit: Mens' long sleeve shirts come with a similar fit to what you usually wear but with a slightly tapered look. This full sleeves shirt is highly breathable and dries quickly, therefore, it's a perfect fit for sunny outdoor conditions.",
+    "slug": "lampinjas-men-s-shirt",
+    "sKU": "61454",
+    "price": 60.00,
+    "quantity": 0,
+    "colors": [
+      "mine-shaft"
+    ],
+    "sizes": [
+      {
+        "key": "m",
+        "description": "Medium",
+        "order": 0
+      },
+      {
+        "key": "xl",
+        "description": "Extra Large",
+        "order": 1
+      }
+    ],
+    "tags": [
+      {
+        "key": "fabric",
+        "value": "cotton",
+        "description": "Cotton"
+      }
+    ],
+    "metadata": {
+      "link": "https://www.adventure-works.com/lampinjas-men-s-shirt/68719521518.p"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000004004",
+    "name": "Fluice Kid's Vest",
+    "category": "apparel",
+    "subCategory": "apparel-kids",
+    "detailCategory": "apparel-kids-vests",
+    "description": "This puffer vest has 2 side pockets. Sleeveless design is more suitable for children's activities. Zip-front closure design is more convenient to wear!",
+    "slug": "fluice-kid-s-vest",
+    "sKU": "63701",
+    "price": 92.00,
+    "quantity": 105,
+    "colors": [
+      "saffron"
+    ],
+    "sizes": [
+      {
+        "key": "s",
+        "description": "Small",
+        "order": 0
+      },
+      {
+        "key": "m",
+        "description": "Medium",
+        "order": 1
+      },
+      {
+        "key": "l",
+        "description": "Large",
+        "order": 2
+      }
+    ],
+    "tags": [
+      {
+        "key": "fabric",
+        "value": "fleece",
+        "description": "Fleece"
+      },
+      {
+        "key": "fill",
+        "value": "polyester",
+        "description": "Polyester"
+      }
+    ],
+    "metadata": {
+      "link": "https://www.adventure-works.com/fluice-kid-s-vest/68719522059.p"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000004005",
+    "name": "Luwana Women's Vest",
+    "category": "apparel",
+    "subCategory": "apparel-women",
+    "detailCategory": "apparel-women-vests",
+    "description": "The waterproof outer vest can be worn in milder temperatures. Minimalistic design with smart features such as handwarmer pockets.",
+    "slug": "luwana-women-s-vest",
+    "sKU": "62600",
+    "price": 40.00,
+    "quantity": 0,
+    "colors": [
+      "pomegranat",
+      "saratoga"
+    ],
+    "sizes": [
+      {
+        "key": "s",
+        "description": "Small",
+        "order": 0
+      },
+      {
+        "key": "m",
+        "description": "Medium",
+        "order": 1
+      },
+      {
+        "key": "l",
+        "description": "Large",
+        "order": 2
+      }
+    ],
+    "tags": [
+      {
+        "key": "closure",
+        "value": "buttons",
+        "description": "Buttons"
+      },
+      {
+        "key": "fabric",
+        "value": "polyester",
+        "description": "Polyester"
+      }
+    ],
+    "metadata": {
+      "link": "https://www.adventure-works.com/luwana-women-s-vest/68719521748.p"
+    }
+  }
+]

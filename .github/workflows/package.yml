@@ -1,0 +1,48 @@
+name: Package and release files
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  package-json:
+    name: Package files
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Find and zip JSON files
+        run: |
+          zip files.zip *.json
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: files
+          path: files.zip
+  release:
+    name: Create Github release
+    needs: package-json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: files
+      - name: Get current date in roundtrip format
+        id: date
+        run: |
+          echo "tag=$(date --utc +'%Y-%m-%d-%H-%M')" >> $GITHUB_OUTPUT
+          echo "date=$(date --utc +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: Push release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create v${{ steps.date.outputs.tag }} \
+            'files.zip#JSON files' \
+            --title 'Release ${{ steps.date.outputs.date }}' \
+            --generate-notes
+
